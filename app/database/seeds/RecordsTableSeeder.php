@@ -5,7 +5,9 @@ class RecordsTableSeeder extends Seeder {
   public function run()
   {
   	// Uncomment the below to wipe the table clean before populating
-  	// DB::table('records')->delete();
+  	DB::table('records')->delete();
+
+    $now = date('Y-m-d H:i:s');
 
     $records = array(
       // Afghanistan
@@ -16,7 +18,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 28255719,
         'gdp' => 4589112904,
         'gdp_growth' => 8,
-        'life_expectancy' => 46
+        'life_expectancy' => 46,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 1,
@@ -25,7 +29,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 29068646,
         'gdp' => 5283562279,
         'gdp_growth' => 1,
-        'life_expectancy' => 46
+        'life_expectancy' => 46,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 1,
@@ -34,7 +40,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 29904962,
         'gdp' => 6269129359,
         'gdp_growth' => 11,
-        'life_expectancy' => 47
+        'life_expectancy' => 47,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 1,
@@ -43,7 +51,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 30751661,
         'gdp' => 7057055309,
         'gdp_growth' => 6,
-        'life_expectancy' => 47
+        'life_expectancy' => 47,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 1,
@@ -52,7 +62,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 31622333,
         'gdp' => 8720455003,
         'gdp_growth' => 14,
-        'life_expectancy' => 47
+        'life_expectancy' => 47,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 1,
@@ -61,7 +73,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 32517656,
         'gdp' => 10617347740,
         'gdp_growth' => 4,
-        'life_expectancy' => 48
+        'life_expectancy' => 48,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 1,
@@ -70,7 +84,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 33438329,
         'gdp' => 12244505992,
         'gdp_growth' => 21,
-        'life_expectancy' => 48
+        'life_expectancy' => 48,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 1,
@@ -79,7 +95,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 34385068,
         'gdp' => 15712654583,
         'gdp_growth' => 8,
-        'life_expectancy' => 48
+        'life_expectancy' => 48,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 1,
@@ -88,7 +106,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 35320445,
         'gdp' => 19176772040,
         'gdp_growth' => 6,
-        'life_expectancy' => 49
+        'life_expectancy' => 49,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       // Cameroon
       array(
@@ -98,7 +118,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 16783366,
         'gdp' => 13621809574,
         'gdp_growth' => 4,
-        'life_expectancy' => 49
+        'life_expectancy' => 49,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 2,
@@ -107,7 +129,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 17165267,
         'gdp' => 15775356737,
         'gdp_growth' => 4,
-        'life_expectancy' => 49
+        'life_expectancy' => 49,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 2,
@@ -116,7 +140,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 17553589,
         'gdp' => 16587921221,
         'gdp_growth' => 3,
-        'life_expectancy' => 49
+        'life_expectancy' => 49,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 2,
@@ -125,7 +151,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 17948395,
         'gdp' => 17953103009,
         'gdp_growth' => 3,
-        'life_expectancy' => 50
+        'life_expectancy' => 50,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 2,
@@ -134,7 +162,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 18350022,
         'gdp' => 20431779034,
         'gdp_growth' => 3,
-        'life_expectancy' => 50
+        'life_expectancy' => 50,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 2,
@@ -143,7 +173,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 18758778,
         'gdp' => 23735537026,
         'gdp_growth' => 3,
-        'life_expectancy' => 50
+        'life_expectancy' => 50,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 2,
@@ -152,7 +184,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 19175028,
         'gdp' => 22188223918,
         'gdp_growth' => 2,
-        'life_expectancy' => 51
+        'life_expectancy' => 51,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 2,
@@ -161,7 +195,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 19598889,
         'gdp' => 22426024466,
         'gdp_growth' => 3,
-        'life_expectancy' => 51
+        'life_expectancy' => 51,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 2,
@@ -170,7 +206,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 20030362,
         'gdp' => 25235747212,
         'gdp_growth' => 4,
-        'life_expectancy' => 52
+        'life_expectancy' => 52,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       // Germany
       array(
@@ -180,7 +218,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 82534176,
         'gdp' => 2423814898420,
         'gdp_growth' => 0,
-        'life_expectancy' => 78
+        'life_expectancy' => 78,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 3,
@@ -189,7 +229,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 82516260,
         'gdp' => 2726341472500,
         'gdp_growth' => 1,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 3,
@@ -198,7 +240,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 82469422,
         'gdp' => 2766253792966,
         'gdp_growth' => 1,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 3,
@@ -207,7 +251,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 82376451,
         'gdp' => 2902748698160,
         'gdp_growth' => 4,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 3,
@@ -216,7 +262,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 82266372,
         'gdp' => 3323807412152,
         'gdp_growth' => 3,
-        'life_expectancy' => 80
+        'life_expectancy' => 80,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 3,
@@ -225,7 +273,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 82110097,
         'gdp' => 3623686234299,
         'gdp_growth' => 1,
-        'life_expectancy' => 80
+        'life_expectancy' => 80,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 3,
@@ -234,7 +284,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 81902307,
         'gdp' => 3298635952562,
         'gdp_growth' => -5,
-        'life_expectancy' => 80
+        'life_expectancy' => 80,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 3,
@@ -243,7 +295,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 81776930,
         'gdp' => 3284473684211,
         'gdp_growth' => 4,
-        'life_expectancy' => 80
+        'life_expectancy' => 80,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 3,
@@ -252,7 +306,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 81797673,
         'gdp' => 3600833333333,
         'gdp_growth' => 3,
-        'life_expectancy' => 81
+        'life_expectancy' => 81,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       // Ghana
       array(
@@ -262,7 +318,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 20610897,
         'gdp' => 7632720680,
         'gdp_growth' => 5,
-        'life_expectancy' => 60
+        'life_expectancy' => 60,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 4,
@@ -271,7 +329,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 21119911,
         'gdp' => 8881419348,
         'gdp_growth' => 6,
-        'life_expectancy' => 60
+        'life_expectancy' => 60,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 4,
@@ -280,7 +340,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 21639806,
         'gdp' => 10731883141,
         'gdp_growth' => 6,
-        'life_expectancy' => 61
+        'life_expectancy' => 61,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 4,
@@ -289,7 +351,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 22170556,
         'gdp' => 20410257646,
         'gdp_growth' => 6,
-        'life_expectancy' => 62
+        'life_expectancy' => 62,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 4,
@@ -298,7 +362,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 22712403,
         'gdp' => 24757642258,
         'gdp_growth' => 6,
-        'life_expectancy' => 62
+        'life_expectancy' => 62,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 4,
@@ -307,7 +373,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 23264176,
         'gdp' => 28528046011,
         'gdp_growth' => 8,
-        'life_expectancy' => 63
+        'life_expectancy' => 63,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 4,
@@ -316,7 +384,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 23824402,
         'gdp' => 25978537279,
         'gdp_growth' => 4,
-        'life_expectancy' => 63
+        'life_expectancy' => 63,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 4,
@@ -325,7 +395,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 24391823,
         'gdp' => 32174839713,
         'gdp_growth' => 8,
-        'life_expectancy' => 64
+        'life_expectancy' => 64,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 4,
@@ -334,7 +406,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 24965816,
         'gdp' => 39199656051,
         'gdp_growth' => 14,
-        'life_expectancy' => 64
+        'life_expectancy' => 64,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       // Lebanon
       array(
@@ -344,7 +418,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 3935421,
         'gdp' => 20082918740,
         'gdp_growth' => 3,
-        'life_expectancy' => 71
+        'life_expectancy' => 71,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 5,
@@ -353,7 +429,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 3998042,
         'gdp' => 21789054726,
         'gdp_growth' => 7,
-        'life_expectancy' => 71
+        'life_expectancy' => 71,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 5,
@@ -362,7 +440,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 4052420,
         'gdp' => 21860696517,
         'gdp_growth' => 1,
-        'life_expectancy' => 71
+        'life_expectancy' => 71,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 5,
@@ -371,7 +451,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 4097457,
         'gdp' => 22438474295,
         'gdp_growth' => 1,
-        'life_expectancy' => 72
+        'life_expectancy' => 72,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 5,
@@ -380,7 +462,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 4134872,
         'gdp' => 25056716418,
         'gdp_growth' => 8,
-        'life_expectancy' => 72
+        'life_expectancy' => 72,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 5,
@@ -389,7 +473,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 4166915,
         'gdp' => 30079601990,
         'gdp_growth' => 9,
-        'life_expectancy' => 72
+        'life_expectancy' => 72,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 5,
@@ -398,7 +484,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 4196990,
         'gdp' => 34650746269,
         'gdp_growth' => 9,
-        'life_expectancy' => 72
+        'life_expectancy' => 72,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 5,
@@ -407,7 +495,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 4227597,
         'gdp' => 37124378109,
         'gdp_growth' => 7,
-        'life_expectancy' => 72
+        'life_expectancy' => 72,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 5,
@@ -416,7 +506,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 4259405,
         'gdp' => 40094328358,
         'gdp_growth' => 3,
-        'life_expectancy' => 73
+        'life_expectancy' => 73,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       // Mexico
       array(
@@ -426,7 +518,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 103902569,
         'gdp' => 700324664927,
         'gdp_growth' => 1,
-        'life_expectancy' => 75
+        'life_expectancy' => 75,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 6,
@@ -435,7 +529,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 105175967,
         'gdp' => 759777472170,
         'gdp_growth' => 4,
-        'life_expectancy' => 75
+        'life_expectancy' => 75,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 6,
@@ -444,7 +540,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 106483757,
         'gdp' => 848947464609,
         'gdp_growth' => 3,
-        'life_expectancy' => 75
+        'life_expectancy' => 75,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 6,
@@ -453,7 +551,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 107835259,
         'gdp' => 952276430547,
         'gdp_growth' => 5,
-        'life_expectancy' => 76
+        'life_expectancy' => 76,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 6,
@@ -462,7 +562,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 109220753,
         'gdp' => 1035929522496,
         'gdp_growth' => 3,
-        'life_expectancy' => 76
+        'life_expectancy' => 76,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 6,
@@ -471,7 +573,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 110627158,
         'gdp' => 1094480339422,
         'gdp_growth' => 1,
-        'life_expectancy' => 76
+        'life_expectancy' => 76,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 6,
@@ -480,7 +584,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 112033369,
         'gdp' => 879703353505,
         'gdp_growth' => -6,
-        'life_expectancy' => 76
+        'life_expectancy' => 76,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 6,
@@ -489,7 +595,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 113423047,
         'gdp' => 1035273542953,
         'gdp_growth' => 6,
-        'life_expectancy' => 77
+        'life_expectancy' => 77,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 6,
@@ -498,7 +606,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 114793341,
         'gdp' => 1153343069401,
         'gdp_growth' => 4,
-        'life_expectancy' => 77
+        'life_expectancy' => 77,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       // United States
       array(
@@ -508,7 +618,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 290107933,
         'gdp' => 11089300000000,
         'gdp_growth' => 3,
-        'life_expectancy' => 77
+        'life_expectancy' => 77,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 7,
@@ -517,7 +629,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 292805298,
         'gdp' => 11797800000000,
         'gdp_growth' => 3,
-        'life_expectancy' => 77
+        'life_expectancy' => 77,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 7,
@@ -526,7 +640,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 295516599,
         'gdp' => 12564300000000,
         'gdp_growth' => 3,
-        'life_expectancy' => 77
+        'life_expectancy' => 77,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 7,
@@ -535,7 +651,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 298379912,
         'gdp' => 13314500000000,
         'gdp_growth' => 3,
-        'life_expectancy' => 78
+        'life_expectancy' => 78,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 7,
@@ -544,7 +662,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 301231207,
         'gdp' => 13961800000000,
         'gdp_growth' => 2,
-        'life_expectancy' => 78
+        'life_expectancy' => 78,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 7,
@@ -553,7 +673,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 304093966,
         'gdp' => 14219300000000,
         'gdp_growth' => 0,
-        'life_expectancy' => 78
+        'life_expectancy' => 78,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 7,
@@ -562,7 +684,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 306771529,
         'gdp' => 13898300000000,
         'gdp_growth' => -4,
-        'life_expectancy' => 78
+        'life_expectancy' => 78,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 7,
@@ -571,7 +695,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 309349689,
         'gdp' => 14419400000000,
         'gdp_growth' => 3,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 7,
@@ -580,7 +706,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 311591917,
         'gdp' => 14991300000000,
         'gdp_growth' => 2,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       // United Kingdom
       array(
@@ -590,7 +718,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 59566259,
         'gdp' => 1855666938776,
         'gdp_growth' => 4,
-        'life_expectancy' => 78
+        'life_expectancy' => 78,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 8,
@@ -599,7 +729,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 59867866,
         'gdp' => 2196860009521,
         'gdp_growth' => 3,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 8,
@@ -608,7 +740,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 60224307,
         'gdp' => 2295844712163,
         'gdp_growth' => 3,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 8,
@@ -617,7 +751,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 60595632,
         'gdp' => 2452969436251,
         'gdp_growth' => 3,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 8,
@@ -626,7 +762,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 60986649,
         'gdp' => 2825526440057,
         'gdp_growth' => 4,
-        'life_expectancy' => 79
+        'life_expectancy' => 79,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 8,
@@ -635,7 +773,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 61393521,
         'gdp' => 2648935779074,
         'gdp_growth' => -1,
-        'life_expectancy' => 80
+        'life_expectancy' => 80,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 8,
@@ -644,7 +784,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 61811027,
         'gdp' => 2183862761501,
         'gdp_growth' => -4,
-        'life_expectancy' => 80
+        'life_expectancy' => 80,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 8,
@@ -653,7 +795,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 62262786,
         'gdp' => 2256260000000,
         'gdp_growth' => 2,
-        'life_expectancy' => 80
+        'life_expectancy' => 80,
+        'created_at' => $now,
+        'updated_at' => $now
       ),
       array(
         'country_id' => 8,
@@ -662,7 +806,9 @@ class RecordsTableSeeder extends Seeder {
         'population' => 62744081,
         'gdp' => 2445408064516,
         'gdp_growth' => 1,
-        'life_expectancy' => 81
+        'life_expectancy' => 81,
+        'created_at' => $now,
+        'updated_at' => $now
       )
     );
 

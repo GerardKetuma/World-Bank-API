@@ -16,6 +16,7 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::resource('countries', 'CountriesController');
-
-Route::resource('countries.records', 'RecordsController');
+Route::group(array('prefix' => 'api/v1', 'before' => 'auth.basic'), function(){
+  Route::resource('countries', 'CountriesController');
+  Route::resource('countries.records', 'RecordsController');
+});

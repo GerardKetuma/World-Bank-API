@@ -7,15 +7,17 @@ class CountriesTableSeeder extends Seeder {
   	// Uncomment the below to wipe the table clean before populating
     DB::table('countries')->delete();
 
+    $now = date('Y-m-d H:i:s');
+
     $countries = array(
-      array('name' => 'Afghanistan'),
-      array('name' => 'Cameroon'),
-      array('name' => 'Germany'),
-      array('name' => 'Ghana'),
-      array('name' => 'Lebanon'),
-      array('name' => 'Mexico'),
-      array('name' => 'United States'),
-      array('name' => 'United Kingdom')
+      array('name' => 'Afghanistan', 'created_at' => $now, 'updated_at' => $now),
+      array('name' => 'Cameroon', 'created_at' => $now, 'updated_at' => $now),
+      array('name' => 'Germany', 'created_at' => $now, 'updated_at' => $now),
+      array('name' => 'Ghana', 'created_at' => $now, 'updated_at' => $now),
+      array('name' => 'Lebanon', 'created_at' => $now, 'updated_at' => $now),
+      array('name' => 'Mexico', 'created_at' => $now, 'updated_at' => $now),
+      array('name' => 'United States', 'created_at' => $now, 'updated_at' => $now),
+      array('name' => 'United Kingdom', 'created_at' => $now, 'updated_at' => $now)
     );
 
     // Uncomment the below to run the seeder

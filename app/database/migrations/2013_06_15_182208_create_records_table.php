@@ -12,17 +12,17 @@ class CreateRecordsTable extends Migration {
      */
     public function up()
     {
-        Schema::create('records', function(Blueprint $table) {
-            $table->increments('id');
-            $table->integer('country_id');
-			$table->string('year');
-			$table->integer('gni');
-			$table->integer('population');
-			$table->bigInteger('gdp');
-			$table->smallInteger('gdp_growth');
-			$table->smallInteger('life_expectancy');
-            $table->timestamps();
-        });
+      Schema::create('records', function(Blueprint $table) {
+        $table->increments('id');
+        $table->integer('country_id');
+  			$table->string('year');
+  			$table->integer('gni');
+  			$table->integer('population');
+  			$table->bigInteger('gdp');
+  			$table->smallInteger('gdp_growth');
+  			$table->smallInteger('life_expectancy');
+        $table->timestamps();
+      });
     }
 
     /**
