@@ -18,4 +18,4 @@ Route::get('/', function()
 
 Route::resource('countries', 'CountriesController');
 
-Route::resource('records', 'RecordsController');
+Route::resource('countries.records', 'RecordsController');
